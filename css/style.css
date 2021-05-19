@@ -272,27 +272,25 @@ body{
 	border:none;
 	border-bottom:1px solid #CCC;
 	outline:none;
-	vertical-align:top;
 	text-align:center;
 }
 
 #HeaderMenuUstuAlani{
-	display:block;
-	width:100%;
-	min-width:100%;
-	max-width:100%;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
 	height: 30px;
 	min-height: 30px;
 	max-height: 30px;
-	margin:0 auto;
-	padding:0;
-	overflow:hidden;
-	border:none;
-	border-top:2px solid #07B;
-	outline:none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	border-top: 2px solid #07B;
+	outline: none;
 	background-color:#08C;
-	vertical-align:top;
-	text-align:center;
+	text-align: center;
 }
 
 #HeaderMenuUstuSinirlamaAlani{
@@ -306,7 +304,6 @@ body{
 	border:none;
 	outline:none;
 	background-color:#08C;
-	vertical-align:middle;
 	text-align:center;
 }
 
@@ -327,8 +324,8 @@ body{
 
 #HeaderMenuUstuSeceneklerAlani{
 	display: inline-block;
-	list-style:none;
-	float:right;
+	list-style: none;
+	float: right;
 	height: 30px;
 	min-height: 30px;
 	max-height: 30px;
@@ -340,16 +337,16 @@ body{
 }
 
 .HeaderMenuUstuSecenekleri{
-	display:inline-block;
-	float:left;
-	height:auto;
-	margin:0 auto;
-	padding:0;
-	padding-top:5px;
-	padding-right:5px;
-	border:none;
-	outline:none;
-	font-family:Arial, "Helvatica Neue", Helvatica, sans-serif;
+	display: inline-block;
+	float: left;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 5px;
+	padding-right: 5px;
+	border: none;
+	outline: none;
+	font-family: Arial, "Helvatica Neue", Helvatica, sans-serif;
 	color:#FFF;
 	font-size:12px;
 	font-style:normal;
@@ -367,4 +364,420 @@ body{
 	font-variant:normal;
 	font-weight:normal;
 	text-decoration:none;
+}
+
+.HeaderMenuUstuSecenekleri a:link, .HeaderMenuUstuSecenekleri a:active, .HeaderMenuUstuSecenekleri a:visited{
+	font-family:Arial, "Helvatica Neue", Helvatica, sans-serif;
+	color:#FFF;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.HeaderMenuUstuSecenekleri a:hover{
+	font-family:Arial, "Helvatica Neue", Helvatica, sans-serif;
+	color:#FF0;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.HeaderMenuUstuSecenekleri img {
+	display: block;
+	width: 16px;
+	min-width: 16px;
+	max-width: 16px;
+	height: 16px;
+	min-height: 16px;
+	max-height: 16px;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 1px;
+	border: none;
+	outline: none;
+}
+
+#HeaderMenuSinirlamaAlani {
+	display: block;
+	height: 35px !important;
+	min-height: 35px !important;
+	max-height: 35px !important;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	#HeaderMenuSinirlamaAlani{
+		width: 1175px;
+		min-width: 1175px;
+		max-width: 1175px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	#HeaderMenuSinirlamaAlani{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+	#HeaderMenuSinirlamaAlani{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+	#HeaderMenuSinirlamaAlani{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+@media only screen and (max-width:574px){ /* XS */
+	#HeaderMenuSinirlamaAlani{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+#HeaderMenuLogoAlani {
+	display: inline-block;
+	float: left;
+	width: 195px;
+	min-width: 195px;
+	max-width: 195px;
+	height: 35px;
+	min-height: 35px;
+	max-height: 35px;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 5px;
+	border: none;
+	outline: none;
+	text-align: left;
+}
+
+#HeaderMenuLogoAlani img {
+	display: block;
+	width: 195px;
+	min-width: 195px;
+	max-width: 195px;
+	height: 35px;
+	min-height: 35px;
+	max-height: 35px;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+
+}
+
+#HeaderMenuNavAlani {
+	display: inline-block;
+	float: right;
+	width: -webkit-calc(100% -235px);
+	width: -moz-calc(100% -235px);
+	width: -o-calc(100% -235px);
+	width: -ms-calc(100% -235px);
+	width: calc(100% -235px);
+
+	min-width: -webkit-calc(100% -235px);
+	min-width: -moz-calc(100% -235px);
+	min-width: -o-calc(100% -235px);
+	min-width: -ms-calc(100% -235px);
+	min-width: calc(100% -235px);
+
+	max-width: -webkit-calc(100% -235px);
+	max-width: -moz-calc(100% -235px);
+	max-width: -o-calc(100% -235px);
+	max-width: -ms-calc(100% -235px);
+	max-width: calc(100% -235px);
+	height: 35px;
+	min-height: 35px;
+	max-height: 35px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: right;
+}
+
+#HeaderMenuNav {
+	float: right;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: 35px;
+	min-height: 35px;
+	max-height: 35px;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: left;
+}
+
+@media only screen and (min-width:768px) { /*XL, L, M */
+	#HeaderMenuNav{
+		display: block;
+
+	}
+}
+
+@media only screen and (max-width:767px){ /* S, XS */
+	#HeaderMenuNav{
+		display: none;
+	}
+}
+
+#HeaderMenuSeceneklerAlani {
+	display: inline-block;
+	float: right;
+	list-style: none;
+	margin:0;
+	padding: 0;
+	border: none;
+	outline: none;
+	text-align: left;
+}
+
+@media only screen and (min-width:1200px) { /*XL, L, M */
+	#HeaderMenuSeceneklerAlani{
+		padding-top: 8px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* S, XS */
+	#HeaderMenuSeceneklerAlani{
+		padding-top: 9px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* S, XS */
+	#HeaderMenuSeceneklerAlani{
+		padding-top: 10px;
+	}
+}
+
+.HeaderMenuSecenekleri {
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 5px;
+	font-family: Arial, "Helvatica Neue", Helvatica, sans-serif;
+	color: #646464;
+	font-weight: 600;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1.5;
+	text-align: left;
+	text-decoration: none;	
+}
+
+@media only screen and (min-width: 1200px) { /* XL */
+	.HeaderMenuSecenekleri {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {/* L */
+	.HeaderMenuSecenekleri {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { /* M */
+	.HeaderMenuSecenekleri {
+		font-size: 12px;
+	}
+}
+
+.HeaderMenuSecenekleri a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #646464;
+	font-style: normal;
+	font-weight: 600;
+	text-align: left;
+	font-variant: normal;
+}
+
+.HeaderMenuSecenekleri a:link, .HeaderMenuSecenekleri a:active, .HeaderMenuSecenekleri a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #646464;
+	font-style: normal;
+	font-weight: 600;
+	text-align: left;
+	font-variant: normal;
+}
+
+.HeaderMenuSecenekleri a:hover {
+	color: #000;
+}
+
+#HeaderMenuAcmaButonuAlani {
+	float: right;
+	width: 26px;
+	min-width: 26px;
+	max-width: 26px;
+	height: 20px;
+	min-height: 20px;
+	max-height: 20px;
+	margin: 0;
+	padding: 0;
+	padding-top: 7px;
+	padding-right: 4px;
+	border: none;
+	outline: none;
+	vertical-align: middle;
+	text-align: right;
+	cursor: pointer;
+
+}
+
+@media only screen and (min-width:768px) { /* M */
+	#HeaderMenuAcmaButonuAlani{
+		display: none;
+	}
+}
+
+#HeaderMenuAcmaButonuAlani img {
+	display: block;
+	width: 26px;
+	min-width: 26px;
+	max-width: 26px;
+	height: 20px;
+	min-height: 20px;
+	max-height: 20px;
+	padding: 0;
+	margin: 0 auto;
+	border: none;
+	outline: none;
+}
+
+#HeaderMenuAcmaButonuMenuSinirlamaAlani {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #3d3d3d;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+@media only screen and (min-width:768px) { /* M */
+	#HeaderMenuAcmaButonuMenuSinirlamaAlani{
+		display: none;
+	}
+}
+
+#HeaderMenuAcmaButonuMenu {
+	display: block;
+	min-width: 100%;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0; 
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #3d3d3d;
+	vertical-align: top;
+	text-align: center;
+}
+
+#HeaderMenuAcmaButonuMenuSeceneklerAlani {
+	display: block;
+	float: left;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.HeaderMenuAcmaButonuMenuSecenekleri {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;	
+	height: 20px;
+	min-height: 20px;
+	max-height: 20px; 
+	margin: 0 auto;
+	padding: 0;
+	padding: 5px 5px 4px 5px;
+	border: none;
+	border-bottom: 1px solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 1.5;
+	text-align: center;
+}
+
+
+.HeaderMenuAcmaButonuMenuSecenekleri a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: 600;
+	text-align: left;
+	font-variant: normal;
+}
+
+.HeaderMenuAcmaButonuMenuSecenekleri a:link, .HeaderMenuAcmaButonuMenuSecenekleri a:active, .HeaderMenuAcmaButonuMenuSecenekleri a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: 600;
+	text-align: left;
+	font-variant: normal;
+}
+
+.HeaderMenuAcmaButonuMenuSecenekleri a:hover {
+	color: #FF0;
 }

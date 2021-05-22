@@ -846,19 +846,19 @@ footer {
 	background-color: #F9F9F9;
 }
 
-@media only screen and (min-widht: 1200px) {
+@media only screen and (min-width:1200px) {
 	#FooterMenulerSinirlamaAlani {
 		width: 1175px;
-		max-width: 1175px;
 		min-width: 1175px;
+		max-width: 1175px;
 	}
 }
 
-@media only screen and (max-widht: 1199px) {
-	#FooterMenulerSinirlamaAlani {
+@media only screen and (min-width:1199px) { /*XL, L, M */
+	#HeaderMenuNav{
 		width: 100%;
-		max-width: 100%;
 		min-width: 100%;
+		max-width: 100%;
 	}
 }
 
@@ -866,4 +866,10 @@ footer {
 	display: inline-block;
 	float: left;
 	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	text-align: left;
 }

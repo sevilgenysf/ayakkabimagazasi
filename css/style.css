@@ -816,3 +816,54 @@ footer {
 	background-color: #FFF;
 	text-align: center;
 }
+
+#FooterMenulerAlani {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	border-top: 1px solid #ccc;
+	outline: none;
+	background-color: F9F9F9;
+	text-align: center;
+}
+
+#FooterMenulerSinirlamaAlani {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	text-align: center;
+	background-color: #F9F9F9;
+}
+
+@media only screen and (min-widht: 1200px) {
+	#FooterMenulerSinirlamaAlani {
+		width: 1175px;
+		max-width: 1175px;
+		min-width: 1175px;
+	}
+}
+
+@media only screen and (max-widht: 1199px) {
+	#FooterMenulerSinirlamaAlani {
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
+	}
+}
+
+.FooterMenuleriSutunlarAlani {
+	display: inline-block;
+	float: left;
+	height: auto;
+}

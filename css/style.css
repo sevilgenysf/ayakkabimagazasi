@@ -944,7 +944,40 @@ footer {
 	color: #000;
 	font-style: normal;
 	font-variant: normal;
+	line-height: 1.5;
+	margin-right: 10px;
 	font-weight: 600;
 	text-align: left;
 	text-decoration: none;
+	text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){
+	.FooterMenuleriSutunlariBaslikAlani {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.FooterMenuleriSutunlariBaslikAlani {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.FooterMenuleriSutunlariBaslikAlani {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	.FooterMenuleriSutunlariBaslikAlani {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	.FooterMenuleriSutunlariBaslikAlani {
+		font-size: 15px;
+	}
 }

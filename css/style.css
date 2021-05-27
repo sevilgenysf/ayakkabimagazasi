@@ -875,31 +875,76 @@ footer {
 }
 
 @media only screen and (min-width:1200px){
-	# {
-
+	.FooterMenuleriSutunlarAlani {
+		width: 25%;
+		max-width: 25%;
+		min-width: 25%;
 	}
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px){
-	# {
-		
+	.FooterMenuleriSutunlarAlani {
+		width: 25%;
+		max-width: 25%;
+		min-width: 25%;
 	}
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
-	# {
-		
+	.FooterMenuleriSutunlarAlani {
+		width: 25%;
+		max-width: 25%;
+		min-width: 25%;
 	}
 }
 
 @media only screen and (min-width:576px) and (max-width:767px){
-	# {
-		
+	.FooterMenuleriSutunlarAlani {
+		width: 50%;
+		max-width: 50%;
+		min-width: 50%;
 	}
 }
 
 @media only screen and (max-width:574px) {
-	# {
-		
+	.FooterMenuleriSutunlarAlani {
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
 	}
+}
+
+.FooterMenuleriSutunlariBaslikAlani {
+	display: block;
+	width: -webkit-calc(100%-10px);
+	width: -moz-calc(100%-10px);
+	width: -0-calc(100%-10px);
+	width: -ms-calc(100%-10px);
+	width: calc(100%-10px);
+	min-width: -webkit-calc(100%-10px);
+	min-width: -moz-calc(100%-10px);
+	min-width: -0-calc(100%-10px);
+	min-width: -ms-calc(100%-10px);
+	min-width: calc(100%-10px);
+	max-width: -webkit-calc(100%-10px);
+	max-width: -moz-calc(100%-10px);
+	max-width: -0-calc(100%-10px);
+	max-width: -ms-calc(100%-10px);
+	max-width: calc(100%-10px);
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	padding: 0;
+	padding-bottom: 5px;
+	overflow: hidden;
+	border: none;
+	border-bottom: 1px dashed #000;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	text-align: left;
+	text-decoration: none;
 }

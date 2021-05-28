@@ -960,24 +960,62 @@ footer {
 
 @media only screen and (min-width:992px) and (max-width:1199px){
 	.FooterMenuleriSutunlariBaslikAlani {
-		font-size: 15px;
+		font-size: 14px;
 	}
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
 	.FooterMenuleriSutunlariBaslikAlani {
-		font-size: 15px;
+		font-size: 13px;
 	}
 }
 
 @media only screen and (min-width:576px) and (max-width:767px){
 	.FooterMenuleriSutunlariBaslikAlani {
-		font-size: 15px;
+		font-size: 12px;
 	}
 }
 
 @media only screen and (max-width:574px) {
 	.FooterMenuleriSutunlariBaslikAlani {
-		font-size: 15px;
+		font-size: 12px;
 	}
+}
+
+.FooterMenuleriSutunlariBaslikAlani {
+	display: block;
+	width: -webkit-calc(100%-10px);
+	width: -moz-calc(100%-10px);
+	width: -0-calc(100%-10px);
+	width: -ms-calc(100%-10px);
+	width: calc(100%-10px);
+	min-width: -webkit-calc(100%-10px);
+	min-width: -moz-calc(100%-10px);
+	min-width: -0-calc(100%-10px);
+	min-width: -ms-calc(100%-10px);
+	min-width: calc(100%-10px);
+	max-width: -webkit-calc(100%-10px);
+	max-width: -moz-calc(100%-10px);
+	max-width: -0-calc(100%-10px);
+	max-width: -ms-calc(100%-10px);
+	max-width: calc(100%-10px);
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	overflow: hidden;
+	border: none;
+	border-bottom: 1px dashed #000;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1.5;
+	margin-right: 10px;
+	font-weight: 600;
+	text-align: left;
+	text-decoration: none;
+	text-decoration: none;
 }

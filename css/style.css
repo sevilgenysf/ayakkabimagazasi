@@ -303,7 +303,7 @@ body{
 	overflow:hidden;
 	border:none;
 	outline:none;
-	background-color:#08C;
+	background-color:rgb(29, 142, 199);
 	text-align:center;
 }
 
@@ -324,7 +324,6 @@ body{
 
 #HeaderMenuUstuSeceneklerAlani{
 	display: inline-block;
-	list-style: none;
 	float: right;
 	height: 30px;
 	min-height: 30px;
@@ -1076,3 +1075,19 @@ footer {
 	font-variant: normal;
 	text-decoration: underline;
 }
+
+.FooterMenuleriSutunlariMenulerAlani img{ 
+	display: inline-block;
+	float: left;
+	width: 16px;
+	min-width: 16px;
+	max-width: 16px;
+	height: 16px;
+	min-height: 16px;
+	max-height: 16px;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 5px;
+	padding-top: 3px; 
+}
+

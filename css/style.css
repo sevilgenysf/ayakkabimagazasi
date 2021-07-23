@@ -1089,5 +1089,36 @@ footer {
 	padding: 0;
 	padding-right: 5px;
 	padding-top: 3px; 
+	border: none;
+	outline: none;
 }
 
+@media only screen and (min-width:1200px){
+	.FooterMenuleriSutunlariMenulerAlani {
+		padding-top: 3px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.FooterMenuleriSutunlariMenulerAlani {
+		padding-top: 3px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.FooterMenuleriSutunlariMenulerAlani {
+		padding-top: 3px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	.FooterMenuleriSutunlariMenulerAlani {
+		padding-top: 3px;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	.FooterMenuleriSutunlariMenulerAlani {
+		font-size: 12px;
+	}
+}

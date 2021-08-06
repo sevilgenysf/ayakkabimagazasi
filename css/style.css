@@ -866,6 +866,7 @@ footer {
 	float: left;
 	height: auto;
 	margin: 0 auto;
+	margin-left: 10px;
 	padding: 0;
 	overflow: hidden;
 	border: none;

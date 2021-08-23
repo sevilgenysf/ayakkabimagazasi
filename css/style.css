@@ -497,23 +497,23 @@ body{
 #HeaderMenuNavAlani {
 	display: inline-block;
 	float: right;
-	width: -webkit-calc(100% -235px);
-	width: -moz-calc(100% -235px);
-	width: -o-calc(100% -235px);
-	width: -ms-calc(100% -235px);
-	width: calc(100% -235px);
+	width: -webkit- calc(100% - 235px);
+	width: -moz- calc(100% - 235px);
+	width: -o- calc(100% - 235px);
+	width: -ms- calc(100% - 235px);
+	width: calc(100% - 235px);
 
-	min-width: -webkit-calc(100% -235px);
-	min-width: -moz-calc(100% -235px);
-	min-width: -o-calc(100% -235px);
-	min-width: -ms-calc(100% -235px);
-	min-width: calc(100% -235px);
+	min-width: -webkit- calc(100% - 235px);
+	min-width: -moz- calc(100% - 235px);
+	min-width: -o- calc(100% - 235px);
+	min-width: -ms- calc(100% - 235px);
+	min-width: calc(100% - 235px);
 
-	max-width: -webkit-calc(100% -235px);
-	max-width: -moz-calc(100% -235px);
-	max-width: -o-calc(100% -235px);
-	max-width: -ms-calc(100% -235px);
-	max-width: calc(100% -235px);
+	max-width: -webkit- calc(100% - 235px);
+	max-width: -moz- calc(100% - 235px);
+	max-width: -o- calc(100% - 235px);
+	max-width: -ms- calc(100% - 235px);
+	max-width: calc(100% - 235px);
 	height: 35px;
 	min-height: 35px;
 	max-height: 35px;
@@ -653,14 +653,13 @@ body{
 	max-height: 20px;
 	margin: 0;
 	padding: 0;
-	padding-top: 7px;
+	padding-top: 8px;
 	padding-right: 4px;
 	border: none;
 	outline: none;
 	vertical-align: middle;
 	text-align: right;
 	cursor: pointer;
-
 }
 
 @media only screen and (min-width:768px) { /* M */
@@ -915,21 +914,21 @@ footer {
 
 .FooterMenuleriSutunlariBaslikAlani {
 	display: block;
-	width: -webkit-calc(100%-10px);
-	width: -moz-calc(100%-10px);
-	width: -0-calc(100%-10px);
-	width: -ms-calc(100%-10px);
-	width: calc(100%-10px);
-	min-width: -webkit-calc(100%-10px);
-	min-width: -moz-calc(100%-10px);
-	min-width: -0-calc(100%-10px);
-	min-width: -ms-calc(100%-10px);
-	min-width: calc(100%-10px);
-	max-width: -webkit-calc(100%-10px);
-	max-width: -moz-calc(100%-10px);
-	max-width: -0-calc(100%-10px);
-	max-width: -ms-calc(100%-10px);
-	max-width: calc(100%-10px);
+	width: -webkit-calc(100% - 10px);
+	width: -moz-calc(100% - 10px);
+	width: -0-calc(100% - 10px);
+	width: -ms-calc(100% - 10px);
+	width: calc(100% - 10px);
+	min-width: -webkit-calc(100% - 10px);
+	min-width: -moz-calc(100% - 10px);
+	min-width: -0-calc(100% - 10px);
+	min-width: -ms-calc(100% - 10px);
+	min-width: calc(100% - 10px);
+	max-width: -webkit-calc(100% - 10px);
+	max-width: -moz-calc(100% - 10px);
+	max-width: -0-calc(100% - 10px);
+	max-width: -ms-calc(100% - 10px);
+	max-width: calc(100% - 10px);
 	height: auto;
 	margin: 0 auto;
 	margin-bottom: 5px;
@@ -983,21 +982,21 @@ footer {
 
 .FooterMenuleriSutunlariMenulerAlani {
 	display: block;
-	width: -webkit-calc(100%-10px);
-	width: -moz-calc(100%-10px);
-	width: -0-calc(100%-10px);
-	width: -ms-calc(100%-10px);
-	width: calc(100%-10px);
-	min-width: -webkit-calc(100%-10px);
-	min-width: -moz-calc(100%-10px);
-	min-width: -0-calc(100%-10px);
-	min-width: -ms-calc(100%-10px);
-	min-width: calc(100%-10px);
-	max-width: -webkit-calc(100%-10px);
-	max-width: -moz-calc(100%-10px);
-	max-width: -0-calc(100%-10px);
-	max-width: -ms-calc(100%-10px);
-	max-width: calc(100%-10px);
+	width: -webkit-calc(100% - 10px);
+	width: -moz-calc(100% - 10px);
+	width: -0-calc(100% - 10px);
+	width: -ms-calc(100% - 10px);
+	width: calc(100% - 10px);
+	min-width: -webkit-calc(100% - 10px);
+	min-width: -moz-calc(100% - 10px);
+	min-width: -0-calc(100% - 10px);
+	min-width: -ms-calc(100% - 10px);
+	min-width: calc(100% - 10px);
+	max-width: -webkit-calc(100% - 10px);
+	max-width: -moz-calc(100% - 10px);
+	max-width: -0-calc(100% - 10px);
+	max-width: -ms-calc(100% - 10px);
+	max-width: calc(100% - 10px);
 	height: auto;
 	margin: 0 auto;
 	padding: 0;
@@ -1143,21 +1142,21 @@ footer {
 
 .FooterAltMetniSinirlamaAlani {
 	display: block;
-	width: -webkit-calc(100%-10px);
-	width: -moz-calc(100%-10px);
-	width: -0-calc(100%-10px);
-	width: -ms-calc(100%-10px);
-	width: calc(100%-10px);
-	min-width: -webkit-calc(100%-10px);
-	min-width: -moz-calc(100%-10px);
-	min-width: -0-calc(100%-10px);
-	min-width: -ms-calc(100%-10px);
-	min-width: calc(100%-10px);
-	max-width: -webkit-calc(100%-10px);
-	max-width: -moz-calc(100%-10px);
-	max-width: -0-calc(100%-10px);
-	max-width: -ms-calc(100%-10px);
-	max-width: calc(100%-10px);
+	width: -webkit-calc(100% - 10px);
+	width: -moz-calc(100% - 10px);
+	width: -0-calc(100% - 10px);
+	width: -ms-calc(100% - 10px);
+	width: calc(100% - 10px);
+	min-width: -webkit-calc(100% - 10px);
+	min-width: -moz-calc(100% - 10px);
+	min-width: -0-calc(100% - 10px);
+	min-width: -ms-calc(100% - 10px);
+	min-width: calc(100% - 10px);
+	max-width: -webkit-calc(100% - 10px);
+	max-width: -moz-calc(100% - 10px);
+	max-width: -0-calc(100% - 10px);
+	max-width: -ms-calc(100% - 10px);
+	max-width: calc(100% - 10px);
 	height: auto;
 	margin: 0 auto;
 	padding: 0;
@@ -1225,21 +1224,21 @@ footer {
 
 #FooterAltLogolarSinirlamaAlani {
 	display: block;
-	width: -webkit-calc(100%-10px);
-	width: -moz-calc(100%-10px);
-	width: -0-calc(100%-10px);
-	width: -ms-calc(100%-10px);
-	width: calc(100%-10px);
-	min-width: -webkit-calc(100%-10px);
-	min-width: -moz-calc(100%-10px);
-	min-width: -0-calc(100%-10px);
-	min-width: -ms-calc(100%-10px);
-	min-width: calc(100%-10px);
-	max-width: -webkit-calc(100%-10px);
-	max-width: -moz-calc(100%-10px);
-	max-width: -0-calc(100%-10px);
-	max-width: -ms-calc(100%-10px);
-	max-width: calc(100%-10px);
+	width: -webkit-calc(100% - 10px);
+	width: -moz-calc(100% - 10px);
+	width: -0-calc(100% - 10px);
+	width: -ms-calc(100% - 10px);
+	width: calc(100% - 10px);
+	min-width: -webkit-calc(100% - 10px);
+	min-width: -moz-calc(100% - 10px);
+	min-width: -0-calc(100% - 10px);
+	min-width: -ms-calc(100% - 10px);
+	min-width: calc(100% - 10px);
+	max-width: -webkit-calc(100% - 10px);
+	max-width: -moz-calc(100% - 10px);
+	max-width: -0-calc(100% - 10px);
+	max-width: -ms-calc(100% - 10px);
+	max-width: calc(100% - 10px);
 	height: auto;
 	margin: 0 auto;
 	padding: 0;
@@ -1746,7 +1745,7 @@ footer {
 
 #FooterAltWireCardLogosuAlani img{
 	display: block;
-	width: 61px;
+	width: 60px;
 	min-width: 60px;
 	max-width: 60px;
 	height: 12px;
@@ -1756,4 +1755,221 @@ footer {
 	padding: 0;
 	border: none;
 	outline: none;
+}
+
+#sonucSayfalariAlani {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+	background-color: #EEE;
+	vertical-align: top;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	#sonucSayfalariAlani {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width:1199px){ /* L, M, S, XS */
+	#sonucSayfalariAlani {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+#sonucSayfalariSinirlamaAlani {
+	position: relative;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	outline: none;
+	border: 1px solid #DDD;
+	overflow: hidden;
+	background-color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+}
+
+@media only screen and (min-width:1200px){
+	#sonucSayfalariSinirlamaAlani {
+		width: -webkit- calc(1175px - 12px);
+		width: -moz- calc(1175px - 12px);
+		width: -o- calc(1175px - 12px);
+		width: -ms- calc(1175px - 12px);
+		width: calc(1175px - 12px);
+		min-width: -webkit- calc(1175px - 12px);
+		min-width: -moz- calc(1175px - 12px);
+		min-width: -o- calc(1175px - 12px);
+		min-width: -ms- calc(1175px - 12px);
+		min-width: calc(1175px - 12px);
+		max-width: -webkit- calc(1175px - 12px);
+		max-width: -moz- calc(1175px - 12px);
+		max-width: -o- calc(1175px - 12px);
+		max-width: -ms- calc(1175px - 12px);
+		max-width: calc(1175px - 12px);
+	}
+}
+
+@media only screen and (max-width:1199px){
+	#sonucSayfalariSinirlamaAlani {
+		width: -webkit- calc(100% - 12px);
+		width: -moz- calc(100% - 12px);
+		width: -o- calc(100% - 12px);
+		width: -ms- calc(100% - 12px);
+		width: calc(100% - 12px);
+		min-width: -webkit- calc(100% - 12px);
+		min-width: -moz- calc(100% - 12px);
+		min-width: -o- calc(100% - 12px);
+		min-width: -ms- calc(100% - 12px);
+		min-width: calc(100% - 12px);
+		max-width: -webkit- calc(100% - 12px);
+		max-width: -moz- calc(100% - 12px);
+		max-width: -o- calc(100% - 12px);
+		max-width: -ms- calc(100% - 12px);
+		max-width: calc(100% - 12px);
+	}
+}
+
+#sonucSayfalariBilgiAlani {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+	vertical-align: top;
+}
+
+@media only screen and (min-width:1200px){
+	#sonucSayfalariBilgiAlani {
+		width: -webkit- calc(100% - 40px);
+		width: -moz- calc(100% - 40px);
+		width: -o- calc(100% - 40px);
+		width: -ms- calc(100% - 40px);
+		width: calc(100% - 40px);
+		min-width: -webkit- calc(100% - 40px);
+		min-width: -moz- calc(100% - 40px);
+		min-width: -o- calc(100% - 40px);
+		min-width: -ms- calc(100% - 40px);
+		min-width: calc(100% - 40px);
+		max-width: -webkit- calc(100% - 40px);
+		max-width: -moz- calc(100% - 40px);
+		max-width: -o- calc(100% - 40px);
+		max-width: -ms- calc(100% - 40px);
+		max-width: calc(100% - 40px);
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#sonucSayfalariBilgiAlani {
+		width: -webkit- calc(100% - 40px);
+		width: -moz- calc(100% - 40px);
+		width: -o- calc(100% - 40px);
+		width: -ms- calc(100% - 40px);
+		width: calc(100% - 40px);
+		min-width: -webkit- calc(100% - 40px);
+		min-width: -moz- calc(100% - 40px);
+		min-width: -o- calc(100% - 40px);
+		min-width: -ms- calc(100% - 40px);
+		min-width: calc(100% - 40px);
+		max-width: -webkit- calc(100% - 40px);
+		max-width: -moz- calc(100% - 40px);
+		max-width: -o- calc(100% - 40px);
+		max-width: -ms- calc(100% - 40px);
+		max-width: calc(100% - 40px);
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#sonucSayfalariBilgiAlani {
+		width: -webkit- calc(100% - 36px);
+		width: -moz- calc(100% - 36px);
+		width: -o- calc(100% - 36px);
+		width: -ms- calc(100% - 36px);
+		width: calc(100% - 36px);
+		min-width: -webkit- calc(100% - 36px);
+		min-width: -moz- calc(100% - 36px);
+		min-width: -o- calc(100% - 36px);
+		min-width: -ms- calc(100% - 36px);
+		min-width: calc(100% - 36px);
+		max-width: -webkit- calc(100% - 36px);
+		max-width: -moz- calc(100% - 36px);
+		max-width: -o- calc(100% - 36px);
+		max-width: -ms- calc(100% - 36px);
+		max-width: calc(100% - 36px);
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#sonucSayfalariBilgiAlani {
+		width: -webkit- calc(100% - 30px);
+		width: -moz- calc(100% - 30px);
+		width: -o- calc(100% - 30px);
+		width: -ms- calc(100% - 30px);
+		width: calc(100% - 30px);
+		min-width: -webkit- calc(100% - 30px);
+		min-width: -moz- calc(100% - 30px);
+		min-width: -o- calc(100% - 30px);
+		min-width: -ms- calc(100% - 30px);
+		min-width: calc(100% - 30px);
+		max-width: -webkit- calc(100% - 30px);
+		max-width: -moz- calc(100% - 30px);
+		max-width: -o- calc(100% - 30px);
+		max-width: -ms- calc(100% - 30px);
+		max-width: calc(100% - 30px);
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#sonucSayfalariBilgiAlani {
+		width: -webkit- calc(100% - 24px);
+		width: -moz- calc(100% - 24px);
+		width: -o- calc(100% - 24px);
+		width: -ms- calc(100% - 24px);
+		width: calc(100% - 24px);
+		min-width: -webkit- calc(100% - 24px);
+		min-width: -moz- calc(100% - 24px);
+		min-width: -o- calc(100% - 24px);
+		min-width: -ms- calc(100% - 24px);
+		min-width: calc(100% - 24px);
+		max-width: -webkit- calc(100% - 24px);
+		max-width: -moz- calc(100% - 24px);
+		max-width: -o- calc(100% - 24px);
+		max-width: -ms- calc(100% - 24px);
+		max-width: calc(100% - 24px);
+	}
+}
+
+#sonucSayfalariIslemIconuAlani {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: 100px;
+	min-height: 100px;
+	max-height: 100px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+
 }

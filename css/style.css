@@ -2232,23 +2232,24 @@ footer {
 	text-align: center;
 }
 
+
 @media only screen and (min-width:1200px){
 	#tamSayfaCerceveSinirlamaAlani {
-		width: -webkit- calc(1175px - 12px);
-		width: -moz- calc(1175px - 12px);
-		width: -o- calc(1175px - 12px);
-		width: -ms- calc(1175px - 12px);
-		width: calc(1175px - 12px);
-		min-width: -webkit- calc(1175px - 12px);
-		min-width: -moz- calc(1175px - 12px);
-		min-width: -o- calc(1175px - 12px);
-		min-width: -ms- calc(1175px - 12px);
-		min-width: calc(1175px - 12px);
-		max-width: -webkit- calc(1175px - 12px);
-		max-width: -moz- calc(1175px - 12px);
-		max-width: -o- calc(1175px - 12px);
-		max-width: -ms- calc(1175px - 12px);
-		max-width: calc(1175px - 12px);
+		width: -webkit- calc(1175px - 52px);
+		width: -moz- calc(1175px - 52px);
+		width: -o- calc(1175px - 52px);
+		width: -ms- calc(1175px - 52px);
+		width: calc(1175px - 52px);
+		min-width: -webkit- calc(1175px - 52px);
+		min-width: -moz- calc(1175px - 52px);
+		min-width: -o- calc(1175px - 52px);
+		min-width: -ms- calc(1175px - 52px);
+		min-width: calc(1175px - 52px);
+		max-width: -webkit- calc(1175px - 52px);
+		max-width: -moz- calc(1175px - 52px);
+		max-width: -o- calc(1175px - 52px);
+		max-width: -ms- calc(1175px - 52px);
+		max-width: calc(1175px - 52px);
 		padding: 20px;
 	}
 }
@@ -2256,166 +2257,85 @@ footer {
 
 @media only screen and (min-width:992px) and (max-width:1199px){
 	#tamSayfaCerceveSinirlamaAlani {
-		width: -webkit- calc(1175px - 12px);
-		width: -moz- calc(1175px - 12px);
-		width: -o- calc(1175px - 12px);
-		width: -ms- calc(1175px - 12px);
-		width: calc(1175px - 12px);
-		min-width: -webkit- calc(1175px - 12px);
-		min-width: -moz- calc(1175px - 12px);
-		min-width: -o- calc(1175px - 12px);
-		min-width: -ms- calc(1175px - 12px);
-		min-width: calc(1175px - 12px);
-		max-width: -webkit- calc(1175px - 12px);
-		max-width: -moz- calc(1175px - 12px);
-		max-width: -o- calc(1175px - 12px);
-		max-width: -ms- calc(1175px - 12px);
-		max-width: calc(1175px - 12px);
+		width: -webkit- calc(100% - 48px);
+		width: -moz- calc(100% - 48px);
+		width: -o- calc(100% - 48px);
+		width: -ms- calc(100% - 48px);
+		width: calc(100% - 48px);
+		min-width: -webkit- calc(100% - 48px);
+		min-width: -moz- calc(100% - 48px);
+		min-width: -o- calc(100% - 48px);
+		min-width: -ms- calc(100% - 48px);
+		min-width: calc(100% - 48px);
+		max-width: -webkit- calc(100% - 48px);
+		max-width: -moz- calc(100% - 48px);
+		max-width: -o- calc(100% - 48px);
+		max-width: -ms- calc(100% - 48px);
+		max-width: calc(100% - 48px);
 		padding: 18px;
 	}
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
 	#tamSayfaCerceveSinirlamaAlani {
-		width: -webkit- calc(1175px - 12px);
-		width: -moz- calc(1175px - 12px);
-		width: -o- calc(1175px - 12px);
-		width: -ms- calc(1175px - 12px);
-		width: calc(1175px - 12px);
-		min-width: -webkit- calc(1175px - 12px);
-		min-width: -moz- calc(1175px - 12px);
-		min-width: -o- calc(1175px - 12px);
-		min-width: -ms- calc(1175px - 12px);
-		min-width: calc(1175px - 12px);
-		max-width: -webkit- calc(1175px - 12px);
-		max-width: -moz- calc(1175px - 12px);
-		max-width: -o- calc(1175px - 12px);
-		max-width: -ms- calc(1175px - 12px);
-		max-width: calc(1175px - 12px);
+		width: -webkit- calc(100% - 44px);
+		width: -moz- calc(100% - 44px);
+		width: -o- calc(100% - 44px);
+		width: -ms- calc(100% - 44px);
+		width: calc(100% - 44px);
+		min-width: -webkit- calc(100% - 44px);
+		min-width: -moz- calc(100% - 44px);
+		min-width: -o- calc(100% - 44px);
+		min-width: -ms- calc(100% - 44px);
+		min-width: calc(100% - 44px);
+		max-width: -webkit- calc(100% - 44px);
+		max-width: -moz- calc(100% - 44px);
+		max-width: -o- calc(100% - 44px);
+		max-width: -ms- calc(100% - 44px);
+		max-width: calc(100% - 44px);
 		padding: 16px;
-}
+	}
 }
 
 @media only screen and (min-width:576px) and (max-width:767px){
 	#tamSayfaCerceveSinirlamaAlani {
-		width: -webkit- calc(1175px - 12px);
-		width: -moz- calc(1175px - 12px);
-		width: -o- calc(1175px - 12px);
-		width: -ms- calc(1175px - 12px);
-		width: calc(1175px - 12px);
-		min-width: -webkit- calc(1175px - 12px);
-		min-width: -moz- calc(1175px - 12px);
-		min-width: -o- calc(1175px - 12px);
-		min-width: -ms- calc(1175px - 12px);
-		min-width: calc(1175px - 12px);
-		max-width: -webkit- calc(1175px - 12px);
-		max-width: -moz- calc(1175px - 12px);
-		max-width: -o- calc(1175px - 12px);
-		max-width: -ms- calc(1175px - 12px);
-		max-width: calc(1175px - 12px);
+		width: -webkit- calc(100% - 40px);
+		width: -moz- calc(100% - 40px);
+		width: -o- calc(100% - 40px);
+		width: -ms- calc(100% - 40px);
+		width: calc(100% - 40px);
+		min-width: -webkit- calc(100% - 40px);
+		min-width: -moz- calc(100% - 40px);
+		min-width: -o- calc(100% - 40px);
+		min-width: -ms- calc(100% - 40px);
+		min-width: calc(100% - 40px);
+		max-width: -webkit- calc(100% - 40px);
+		max-width: -moz- calc(100% - 40px);
+		max-width: -o- calc(100% - 40px);
+		max-width: -ms- calc(100% - 40px);
+		max-width: calc(100% - 40px);
 		padding: 14px;
 	}
 }
 
 @media only screen and (max-width:574px) {
 	#tamSayfaCerceveSinirlamaAlani {
-		width: -webkit- calc(1175px - 12px);
-		width: -moz- calc(1175px - 12px);
-		width: -o- calc(1175px - 12px);
-		width: -ms- calc(1175px - 12px);
-		width: calc(1175px - 12px);
-		min-width: -webkit- calc(1175px - 12px);
-		min-width: -moz- calc(1175px - 12px);
-		min-width: -o- calc(1175px - 12px);
-		min-width: -ms- calc(1175px - 12px);
-		min-width: calc(1175px - 12px);
-		max-width: -webkit- calc(1175px - 12px);
-		max-width: -moz- calc(1175px - 12px);
-		max-width: -o- calc(1175px - 12px);
-		max-width: -ms- calc(1175px - 12px);
-		max-width: calc(1175px - 12px);
-		padding: 14px;
-	}
-}
-
-
-@media only screen and (min-width:992px) and (max-width:1199px){
-	#tamSayfaCerceveSinirlamaAlani {
-		width: -webkit- calc(100% - 12px);
-		width: -moz- calc(100% - 12px);
-		width: -o- calc(100% - 12px);
-		width: -ms- calc(100% - 12px);
-		width: calc(100% - 12px);
-		min-width: -webkit- calc(100% - 12px);
-		min-width: -moz- calc(100% - 12px);
-		min-width: -o- calc(100% - 12px);
-		min-width: -ms- calc(100% - 12px);
-		min-width: calc(100% - 12px);
-		max-width: -webkit- calc(100% - 12px);
-		max-width: -moz- calc(100% - 12px);
-		max-width: -o- calc(100% - 12px);
-		max-width: -ms- calc(100% - 12px);
-		max-width: calc(100% - 12px);
-	}
-}
-
-@media only screen and (min-width:768px) and (max-width:991px){
-	#tamSayfaCerceveSinirlamaAlani {
-		width: -webkit- calc(100% - 12px);
-		width: -moz- calc(100% - 12px);
-		width: -o- calc(100% - 12px);
-		width: -ms- calc(100% - 12px);
-		width: calc(100% - 12px);
-		min-width: -webkit- calc(100% - 12px);
-		min-width: -moz- calc(100% - 12px);
-		min-width: -o- calc(100% - 12px);
-		min-width: -ms- calc(100% - 12px);
-		min-width: calc(100% - 12px);
-		max-width: -webkit- calc(100% - 12px);
-		max-width: -moz- calc(100% - 12px);
-		max-width: -o- calc(100% - 12px);
-		max-width: -ms- calc(100% - 12px);
-		max-width: calc(100% - 12px);
-	}
-}
-
-@media only screen and (min-width:576px) and (max-width:767px){
-	#tamSayfaCerceveSinirlamaAlani {
-		width: -webkit- calc(100% - 12px);
-		width: -moz- calc(100% - 12px);
-		width: -o- calc(100% - 12px);
-		width: -ms- calc(100% - 12px);
-		width: calc(100% - 12px);
-		min-width: -webkit- calc(100% - 12px);
-		min-width: -moz- calc(100% - 12px);
-		min-width: -o- calc(100% - 12px);
-		min-width: -ms- calc(100% - 12px);
-		min-width: calc(100% - 12px);
-		max-width: -webkit- calc(100% - 12px);
-		max-width: -moz- calc(100% - 12px);
-		max-width: -o- calc(100% - 12px);
-		max-width: -ms- calc(100% - 12px);
-		max-width: calc(100% - 12px);
-	}
-}
-
-@media only screen and (max-width:574px) {
-	#tamSayfaCerceveSinirlamaAlani {
-		width: -webkit- calc(100% - 12px);
-		width: -moz- calc(100% - 12px);
-		width: -o- calc(100% - 12px);
-		width: -ms- calc(100% - 12px);
-		width: calc(100% - 12px);
-		min-width: -webkit- calc(100% - 12px);
-		min-width: -moz- calc(100% - 12px);
-		min-width: -o- calc(100% - 12px);
-		min-width: -ms- calc(100% - 12px);
-		min-width: calc(100% - 12px);
-		max-width: -webkit- calc(100% - 12px);
-		max-width: -moz- calc(100% - 12px);
-		max-width: -o- calc(100% - 12px);
-		max-width: -ms- calc(100% - 12px);
-		max-width: calc(100% - 12px);
+		width: -webkit- calc(100% - 36px);
+		width: -moz- calc(100% - 36px);
+		width: -o- calc(100% - 36px);
+		width: -ms- calc(100% - 36px);
+		width: calc(100% - 36px);
+		min-width: -webkit- calc(100% - 36px);
+		min-width: -moz- calc(100% - 36px);
+		min-width: -o- calc(100% - 36px);
+		min-width: -ms- calc(100% - 36px);
+		min-width: calc(100% - 36px);
+		max-width: -webkit- calc(100% - 36px);
+		max-width: -moz- calc(100% - 36px);
+		max-width: -o- calc(100% - 36px);
+		max-width: -ms- calc(100% - 36px);
+		max-width: calc(100% - 36px);
+		padding: 12px;
 	}
 }
 

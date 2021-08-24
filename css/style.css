@@ -543,14 +543,14 @@ body{
 }
 
 @media only screen and (min-width:768px) { /*XL, L, M */
-	#HeaderMenuNav{
+	#HeaderMenuNavAlani{
 		display: block;
 
 	}
 }
 
 @media only screen and (max-width:767px){ /* S, XS */
-	#HeaderMenuNav{
+	#HeaderMenuNavAlani{
 		display: none;
 	}
 }
@@ -654,7 +654,7 @@ body{
 	margin: 0;
 	padding: 0;
 	padding-top: 8px;
-	padding-right: 4px;
+	padding-right: 40px;
 	border: none;
 	outline: none;
 	vertical-align: middle;
@@ -711,7 +711,7 @@ body{
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
-	padding: 0; 
+	padding: 0;
 	overflow: hidden;
 	border: none;
 	outline: none;
@@ -1972,4 +1972,216 @@ footer {
 	text-decoration: none;
 	vertical-align: top;
 
+}
+
+
+@media only screen and (min-width:1200px){
+	#sonucSayfalariIslemIconuAlani {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#sonucSayfalariIslemIconuAlani {
+		margin-top: 35px;
+		margin-bottom: 18px;	
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#sonucSayfalariIslemIconuAlani {
+		margin-top: 30px;
+		margin-bottom: 16px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#sonucSayfalariIslemIconuAlani {
+		margin-top: 25px;
+		margin-bottom: 14px;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#sonucSayfalariIslemIconuAlani {
+		margin-top: 20px;
+		margin-bottom: 12px;
+	}
+}
+
+#sonucSayfalariIslemIconuAlani img{ 
+	display: block;
+	width: 100px;
+	min-width: 100px;
+	max-width: 100px;
+	height: 100px;
+	min-height: 100px;
+	max-height: 100px;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+#sonucSayfalariBaslikAlani  {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 100%;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: text-top;
+
+}
+
+@media only screen and (min-width:1200px){
+	#sonucSayfalariBaslikAlani {
+		font-size: 14px;
+		margin-bottom: 14px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#sonucSayfalariBaslikAlani {
+		font-size: 13px;
+		margin-bottom: 12px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#sonucSayfalariBaslikAlani {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#sonucSayfalariBaslikAlani {
+		font-size: 12px;
+		margin-bottom: 8px;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#sonucSayfalariIslemIconuAlani {
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+}
+
+#sonucSayfalariIcerikAlani {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 100%;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: text-top;
+}
+
+@media only screen and (min-width:1200px){
+	#sonucSayfalariIcerikAlani {
+		font-size: 14px;
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#sonucSayfalariIcerikAlani {
+		font-size: 13px;
+		margin-bottom: 45px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#sonucSayfalariIcerikAlani {
+		font-size: 12px;
+		margin-bottom: 40px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#sonucSayfalariIcerikAlani {
+		font-size: 12px;
+		margin-bottom: 35px;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#sonucSayfalariIcerikAlani {
+		font-size: 10px;
+		margin-bottom: 30px;
+	}
+}
+
+#sonucSayfalariIcerikAlani a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#sonucSayfalariIcerikAlani a:active{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#sonucSayfalariIcerikAlani a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#sonucSayfalariIcerikAlani a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F00;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.onaylandiRenkYesil a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(39, 221, 94) !important;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: underline;
 }

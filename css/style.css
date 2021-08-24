@@ -2185,3 +2185,409 @@ footer {
 	font-weight: normal;
 	text-decoration: underline;
 }
+
+#tamSayfaCerceveAlani {
+	position: relative;
+	display: block;
+	width: 1005;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+	background-color: #EEE;
+	vertical-align: top;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px) {
+	#tamSayfaCerceveAlani {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width:1199px) {
+	#tamSayfaCerceveAlani {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+#tamSayfaCerceveSinirlamaAlani {
+	position: relative;
+	display: block;
+	width: 1005;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	vertical-align: middle;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px){
+	#tamSayfaCerceveSinirlamaAlani {
+		width: -webkit- calc(1175px - 12px);
+		width: -moz- calc(1175px - 12px);
+		width: -o- calc(1175px - 12px);
+		width: -ms- calc(1175px - 12px);
+		width: calc(1175px - 12px);
+		min-width: -webkit- calc(1175px - 12px);
+		min-width: -moz- calc(1175px - 12px);
+		min-width: -o- calc(1175px - 12px);
+		min-width: -ms- calc(1175px - 12px);
+		min-width: calc(1175px - 12px);
+		max-width: -webkit- calc(1175px - 12px);
+		max-width: -moz- calc(1175px - 12px);
+		max-width: -o- calc(1175px - 12px);
+		max-width: -ms- calc(1175px - 12px);
+		max-width: calc(1175px - 12px);
+		padding: 20px;
+	}
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#tamSayfaCerceveSinirlamaAlani {
+		width: -webkit- calc(1175px - 12px);
+		width: -moz- calc(1175px - 12px);
+		width: -o- calc(1175px - 12px);
+		width: -ms- calc(1175px - 12px);
+		width: calc(1175px - 12px);
+		min-width: -webkit- calc(1175px - 12px);
+		min-width: -moz- calc(1175px - 12px);
+		min-width: -o- calc(1175px - 12px);
+		min-width: -ms- calc(1175px - 12px);
+		min-width: calc(1175px - 12px);
+		max-width: -webkit- calc(1175px - 12px);
+		max-width: -moz- calc(1175px - 12px);
+		max-width: -o- calc(1175px - 12px);
+		max-width: -ms- calc(1175px - 12px);
+		max-width: calc(1175px - 12px);
+		padding: 18px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#tamSayfaCerceveSinirlamaAlani {
+		width: -webkit- calc(1175px - 12px);
+		width: -moz- calc(1175px - 12px);
+		width: -o- calc(1175px - 12px);
+		width: -ms- calc(1175px - 12px);
+		width: calc(1175px - 12px);
+		min-width: -webkit- calc(1175px - 12px);
+		min-width: -moz- calc(1175px - 12px);
+		min-width: -o- calc(1175px - 12px);
+		min-width: -ms- calc(1175px - 12px);
+		min-width: calc(1175px - 12px);
+		max-width: -webkit- calc(1175px - 12px);
+		max-width: -moz- calc(1175px - 12px);
+		max-width: -o- calc(1175px - 12px);
+		max-width: -ms- calc(1175px - 12px);
+		max-width: calc(1175px - 12px);
+		padding: 16px;
+}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#tamSayfaCerceveSinirlamaAlani {
+		width: -webkit- calc(1175px - 12px);
+		width: -moz- calc(1175px - 12px);
+		width: -o- calc(1175px - 12px);
+		width: -ms- calc(1175px - 12px);
+		width: calc(1175px - 12px);
+		min-width: -webkit- calc(1175px - 12px);
+		min-width: -moz- calc(1175px - 12px);
+		min-width: -o- calc(1175px - 12px);
+		min-width: -ms- calc(1175px - 12px);
+		min-width: calc(1175px - 12px);
+		max-width: -webkit- calc(1175px - 12px);
+		max-width: -moz- calc(1175px - 12px);
+		max-width: -o- calc(1175px - 12px);
+		max-width: -ms- calc(1175px - 12px);
+		max-width: calc(1175px - 12px);
+		padding: 14px;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#tamSayfaCerceveSinirlamaAlani {
+		width: -webkit- calc(1175px - 12px);
+		width: -moz- calc(1175px - 12px);
+		width: -o- calc(1175px - 12px);
+		width: -ms- calc(1175px - 12px);
+		width: calc(1175px - 12px);
+		min-width: -webkit- calc(1175px - 12px);
+		min-width: -moz- calc(1175px - 12px);
+		min-width: -o- calc(1175px - 12px);
+		min-width: -ms- calc(1175px - 12px);
+		min-width: calc(1175px - 12px);
+		max-width: -webkit- calc(1175px - 12px);
+		max-width: -moz- calc(1175px - 12px);
+		max-width: -o- calc(1175px - 12px);
+		max-width: -ms- calc(1175px - 12px);
+		max-width: calc(1175px - 12px);
+		padding: 14px;
+	}
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#tamSayfaCerceveSinirlamaAlani {
+		width: -webkit- calc(100% - 12px);
+		width: -moz- calc(100% - 12px);
+		width: -o- calc(100% - 12px);
+		width: -ms- calc(100% - 12px);
+		width: calc(100% - 12px);
+		min-width: -webkit- calc(100% - 12px);
+		min-width: -moz- calc(100% - 12px);
+		min-width: -o- calc(100% - 12px);
+		min-width: -ms- calc(100% - 12px);
+		min-width: calc(100% - 12px);
+		max-width: -webkit- calc(100% - 12px);
+		max-width: -moz- calc(100% - 12px);
+		max-width: -o- calc(100% - 12px);
+		max-width: -ms- calc(100% - 12px);
+		max-width: calc(100% - 12px);
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#tamSayfaCerceveSinirlamaAlani {
+		width: -webkit- calc(100% - 12px);
+		width: -moz- calc(100% - 12px);
+		width: -o- calc(100% - 12px);
+		width: -ms- calc(100% - 12px);
+		width: calc(100% - 12px);
+		min-width: -webkit- calc(100% - 12px);
+		min-width: -moz- calc(100% - 12px);
+		min-width: -o- calc(100% - 12px);
+		min-width: -ms- calc(100% - 12px);
+		min-width: calc(100% - 12px);
+		max-width: -webkit- calc(100% - 12px);
+		max-width: -moz- calc(100% - 12px);
+		max-width: -o- calc(100% - 12px);
+		max-width: -ms- calc(100% - 12px);
+		max-width: calc(100% - 12px);
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#tamSayfaCerceveSinirlamaAlani {
+		width: -webkit- calc(100% - 12px);
+		width: -moz- calc(100% - 12px);
+		width: -o- calc(100% - 12px);
+		width: -ms- calc(100% - 12px);
+		width: calc(100% - 12px);
+		min-width: -webkit- calc(100% - 12px);
+		min-width: -moz- calc(100% - 12px);
+		min-width: -o- calc(100% - 12px);
+		min-width: -ms- calc(100% - 12px);
+		min-width: calc(100% - 12px);
+		max-width: -webkit- calc(100% - 12px);
+		max-width: -moz- calc(100% - 12px);
+		max-width: -o- calc(100% - 12px);
+		max-width: -ms- calc(100% - 12px);
+		max-width: calc(100% - 12px);
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#tamSayfaCerceveSinirlamaAlani {
+		width: -webkit- calc(100% - 12px);
+		width: -moz- calc(100% - 12px);
+		width: -o- calc(100% - 12px);
+		width: -ms- calc(100% - 12px);
+		width: calc(100% - 12px);
+		min-width: -webkit- calc(100% - 12px);
+		min-width: -moz- calc(100% - 12px);
+		min-width: -o- calc(100% - 12px);
+		min-width: -ms- calc(100% - 12px);
+		min-width: calc(100% - 12px);
+		max-width: -webkit- calc(100% - 12px);
+		max-width: -moz- calc(100% - 12px);
+		max-width: -o- calc(100% - 12px);
+		max-width: -ms- calc(100% - 12px);
+		max-width: calc(100% - 12px);
+	}
+}
+
+#tamSayfaCerceveAlaniYuzdeYuzlukAlan {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border-bottom: 1px solid #DDD;
+	outline: none;
+	background-color: #FFF;
+	text-align: left;
+	vertical-align: top;
+}
+
+@media only screen and (min-width:1200px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		margin-bottom: 18px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		margin-bottom: 16px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		margin-bottom: 14px;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		margin-bottom: 12px;
+	}
+}
+
+#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniUstBaslikMetni {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	font-family:Arial, "Helvatica Neue", Helvatica, sans-serif;
+	color: #FF9900;
+	line-height:120%;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:600;
+	text-align:left;
+	text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+		font-size: 14px;
+	}
+}
+
+#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	color: #646464;
+	font-family:Arial, "Helvatica Neue", Helvatica, sans-serif;
+	line-height:120%;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+}
+
+@media only screen and (min-width:1200px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
+		font-size: 14px;
+	}
+}
+
+#tamSayfaCerceveAlaniIciGenelBilgilendirmeMetniAlani {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 10px;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	color: #646464;
+	font-family:Arial, "Helvatica Neue", Helvatica, sans-serif;
+	line-height:130%;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	text-align: left;
+}

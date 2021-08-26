@@ -2511,3 +2511,66 @@ footer {
 	font-weight:normal;
 	text-align: left;
 }
+
+.tamSayfaCerceveAlaniIciBankaHesaplariAlani {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+}
+
+.tamSayfaCerceveAlaniIciBankaHesabiSinirlamaAlani {
+	display: inline-block;
+	float: left;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 10px;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px){
+	.tamSayfaCerceveAlaniIciBankaHesabiSinirlamaAlani {
+		width: calc(33.33% - 32px);
+		min-width: calc(33.33% - 32px);
+		max-width: calc(33.33% - 32px);
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.tamSayfaCerceveAlaniIciBankaHesabiSinirlamaAlani {
+		width: calc(33.33% - 32px);
+		min-width: calc(33.33% - 32px);
+		max-width: calc(33.33% - 32px);
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.tamSayfaCerceveAlaniIciBankaHesabiSinirlamaAlani {
+		width: calc(50% - 32px);
+		min-width: calc(50% - 32px);
+		max-width: calc(50% - 32px);
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	.tamSayfaCerceveAlaniIciBankaHesabiSinirlamaAlani {
+		width: calc(100% - 32px);
+		min-width: calc(100% - 32px);
+		max-width: calc(100% - 32px);
+	}
+}

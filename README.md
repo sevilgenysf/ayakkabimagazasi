@@ -1,4 +1,4 @@
-# ayakkabimagazasi
+# Ayakkabı Mağazası
 Ayakabı Mağazası
 
 

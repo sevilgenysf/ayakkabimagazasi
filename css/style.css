@@ -2527,6 +2527,37 @@ footer {
 	background-color: #FFF;
 }
 
+#tamSayfaCerceveAlaniIciBankaHesaplariDengelemeAlani {
+	position: relative;
+	display: block;
+	float: left;
+	width: -webkit-calc(100% + 10px);
+	width: -moz-calc(100% + 10px);
+	width: -o-calc(100% + 10px);
+	width: -ms-calc(100% + 10px);
+	width: calc(100% + 10px);
+	width: calc(100% + 10px);
+	min-width: calc(100% + 10px);
+	min-width: calc(100% + 10px);
+	min-width: calc(100% + 10px);
+	min-width: calc(100% + 10px);
+	min-width: calc(100% + 10px);
+	max-width: calc(100% + 10px);
+	max-width: calc(100% + 10px);
+	max-width: calc(100% + 10px);
+	max-width: calc(100% + 10px);
+	max-width: calc(100% + 10px);
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	top: 0;
+	left: -5px;
+	overflow: hidden;
+	border: none;
+	overflow: hidden;
+	outline: none;
+}
+
 .tamSayfaCerceveAlaniIciBankaHesabiSinirlamaAlani {
 	display: inline-block;
 	float: left;
@@ -2567,10 +2598,200 @@ footer {
 	}
 }
 
-@media only screen and (min-width:576px) and (max-width:767px){
+@media only screen and (max-width:767px){
 	.tamSayfaCerceveAlaniIciBankaHesabiSinirlamaAlani {
 		width: calc(100% - 32px);
 		min-width: calc(100% - 32px);
 		max-width: calc(100% - 32px);
+	}
+}
+
+.tamSayfaCerceveAlaniIciBankaHesabiLogosuAlani {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: 30px;
+	min-height: 30px;
+	max-height: 30px;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 10px;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+.tamSayfaCerceveAlaniIciBankaHesabiLogosuAlani img{  
+	display: block;
+	width: auto;
+	height: 30px;
+	min-height: 30px;
+	max-height: 30px;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 10px;
+	overflow: hidden;
+	border: none;
+	outline: none;
+}
+
+.tamSayfaCerceveAlaniIciBankaHesabiTablosu{
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: left;
+}
+
+.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 125%;
+	text-align: left;
+	text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 60px;
+		min-width: 60px;
+		max-width: 60px;
+		font-size: 14px;
+
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 50px;
+		min-width: 50px;
+		max-width: 50px;
+		font-size: 13px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 50px;
+		min-width: 50px;
+		max-width: 50px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-widht:576px) and (max-width:767px){ /* S */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 50px;
+		min-width: 50px;
+		max-width: 50px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width:574px){ /* XS */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 50px;
+		min-width: 50px;
+		max-width: 50px;
+		font-size: 11px;
+	}
+}
+
+.tamSayfaCerceveAlaniIciBankaHesabiTablosuNoktaMetniSutunu {
+	width: 10px;
+	min-width: 10px;
+	max-width: 10px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 125%;
+	text-align: left;
+	text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuNoktaMetniSutunu {
+		font-size: 14px;
+
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuNoktaMetniSutunu {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){ /* M */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuNoktaMetniSutunu {
+		font-size: 12px;
+	}
+}
+
+
+.tamSayfaCerceveAlaniIciBankaHesabiTablosuIcerikMetniSutunu {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 125%;
+	text-align: left;
+	text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuIcerikMetniSutunu {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuIcerikMetniSutunu {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){ /* M */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuIcerikMetniSutunu {
+		font-size: 12px;
 	}
 }

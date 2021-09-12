@@ -3117,12 +3117,7 @@ footer {
 	background-color: #1B4C1D;
 }
 
-
-
-
-
-
-
+/* Mavi buton */
 
 .formElemanlariMaviButonlar {
 	width: auto;
@@ -3183,7 +3178,7 @@ footer {
 }
 
 
-
+/* Kırmızı Buton */
 
 
 .formElemanlariKirmiziButonlar {
@@ -3243,6 +3238,8 @@ footer {
 	border: 1px solid #FF0000;
 	background-color: #990000;
 }
+
+/* Turuncu Buton */
 
 .formElemanlariTuruncuButonlar {
 	width: auto;

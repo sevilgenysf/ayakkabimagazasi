@@ -2978,3 +2978,326 @@ footer {
 	}
 }
 
+.tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 120%;
+	text-decoration: none;
+	text-align: left;
+}
+
+@media only screen and (min-width:1200px){
+	.tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){
+	.tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni {
+		font-size: 12px;
+	}
+}
+
+.tamSayfaCerceveAlaniIciFormElamnlariIcinSatirAlani {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-decoration: none;
+	text-align: left;
+}
+
+.butonlarIcinKapasamaAlani{
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+.formElemanlariYesilButonlar {
+	width: auto;
+	height: 30px;
+	min-height: 30px;
+	max-height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+	cursor: pointer;
+	border: none;
+	border: 1px solid #4CAF50;
+	outline: none;
+	background-color: #4CAF50;
+	color: #FFF;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 100%;
+	text-decoration: none;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px){
+	.formElemanlariYesilButonlar {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.formElemanlariYesilButonlar {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.formElemanlariYesilButonlar {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){
+	.formElemanlariYesilButonlar {
+		font-size: 12px;
+	}
+}
+
+.formElemanlariYesilButonlar:hover {
+	border: 1px solid #1B4C1D;
+}
+
+.formElemanlariYesilButonlar:active {
+	border: 1px solid #4CAF50;
+	background-color: #1B4C1D;
+}
+
+
+
+
+
+
+
+
+.formElemanlariMaviButonlar {
+	width: auto;
+	height: 30px;
+	min-height: 30px;
+	max-height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+	cursor: pointer;
+	border: none;
+	border: 1px solid #008CBA;
+	outline: none;
+	background-color: #008CBA;
+	color: #FFF;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 100%;
+	text-decoration: none;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px){
+	.formElemanlariMaviButonlar {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.formElemanlariMaviButonlar {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.formElemanlariMaviButonlar {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){
+	.formElemanlariMaviButonlar {
+		font-size: 12px;
+	}
+}
+
+.formElemanlariMaviButonlar:hover {
+	border: 1px solid #000040;
+}
+
+.formElemanlariMaviButonlar:active {
+	border: 1px solid #008CBA;
+	background-color: #000040;
+}
+
+
+
+
+
+.formElemanlariKirmiziButonlar {
+	width: auto;
+	height: 30px;
+	min-height: 30px;
+	max-height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+	cursor: pointer;
+	border: none;
+	border: 1px solid #FF0000;
+	outline: none;
+	background-color: #FF0000;
+	color: #FFF;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 100%;
+	text-decoration: none;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px){
+	.formElemanlariKirmiziButonlar {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.formElemanlariKirmiziButonlar {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.formElemanlariKirmiziButonlar {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){
+	.formElemanlariKirmiziButonlar {
+		font-size: 12px;
+	}
+}
+
+.formElemanlariKirmiziButonlar:hover {
+	border: 1px solid #990000;
+}
+
+.formElemanlariKirmiziButonlar:active {
+	border: 1px solid #FF0000;
+	background-color: #990000;
+}
+
+.formElemanlariTuruncuButonlar {
+	width: auto;
+	height: 30px;
+	min-height: 30px;
+	max-height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+	cursor: pointer;
+	border: none;
+	border: 1px solid #FF9900;
+	outline: none;
+	background-color: #FF9900;
+	color: #FFF;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 100%;
+	text-decoration: none;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px){
+	.formElemanlariTuruncuButonlar {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.formElemanlariTuruncuButonlar {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.formElemanlariTuruncuButonlar {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){
+	.formElemanlariTuruncuButonlar {
+		font-size: 12px;
+	}
+}
+
+.formElemanlariTuruncuButonlar:hover {
+	border: 1px solid #D77000;
+}
+
+.formElemanlariTuruncuButonlar:active {
+	border: 1px solid #FF9900;
+	background-color: #D77000;
+}

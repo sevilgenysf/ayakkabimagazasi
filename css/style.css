@@ -2189,7 +2189,7 @@ footer {
 #tamSayfaCerceveAlani {
 	position: relative;
 	display: block;
-	width: 1005;
+	width: 100%;
 	min-width: 100%;
 	max-width: 100%;
 	height: auto;
@@ -2219,7 +2219,7 @@ footer {
 #tamSayfaCerceveSinirlamaAlani {
 	position: relative;
 	display: block;
-	width: 1005;
+	width: 100%;
 	min-width: 100%;
 	max-width: 100%;
 	height: auto;
@@ -2356,7 +2356,7 @@ footer {
 
 }
 
-#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
 	display: block;
 	width: 100%;
 	min-width: 100%;
@@ -2373,36 +2373,36 @@ footer {
 }
 
 @media only screen and (min-width:1200px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
 		margin-bottom: 20px;
 	}
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani  {
 		margin-bottom: 18px;
 	}
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
 		margin-bottom: 16px;
 	}
 }
 
 @media only screen and (min-width:576px) and (max-width:767px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
 		margin-bottom: 14px;
 	}
 }
 
 @media only screen and (max-width:574px) {
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani  {
 		margin-bottom: 12px;
 	}
 }
 
-#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniUstBaslikMetni {
+.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniUstBaslikMetni {
 	display: block;
 	width: 100%;
 	min-width: 100%;
@@ -2422,36 +2422,36 @@ footer {
 }
 
 @media only screen and (min-width:1200px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
 		font-size: 18px;
 	}
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani i {
 		font-size: 16px;
 	}
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
 		font-size: 14px;
 	}
 }
 
 @media only screen and (min-width:576px) and (max-width:767px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani  {
 		font-size: 14px;
 	}
 }
 
 @media only screen and (max-width:574px) {
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani  {
 		font-size: 14px;
 	}
 }
 
-#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
+.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
 	display: block;
 	width: 100%;
 	min-width: 100%;
@@ -2472,19 +2472,19 @@ footer {
 }
 
 @media only screen and (min-width:1200px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
 		font-size: 18px;
 	}
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
 		font-size: 16px;
 	}
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
-	#tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
+	.tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni {
 		font-size: 14px;
 	}
 }
@@ -2795,3 +2795,186 @@ footer {
 		font-size: 12px;
 	}
 }
+
+#tamSayfaCerceveAlaniIciYuzdeEllilikSolAlan {
+	display: inline-block;
+	float: left;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px){
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSolAlan {
+		width: -webkit-calc(50% - 10px);
+		width: -moz-calc(50% - 10px);
+		width: -o-calc(50% - 10px);
+		width: -ms-calc(50% - 10px);
+		width: calc(50% - 10px);
+		width: calc(15000% - 10px);
+		min-width: calc(50% - 10px);
+		min-width: calc(50% - 10px);
+		min-width: calc(50% - 10px);
+		min-width: calc(50% - 10px);
+		min-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSolAlan {
+		width: -webkit-calc(50% - 9px);
+		width: -moz-calc(50% - 9px);
+		width: -o-calc(50% - 9px);
+		width: -ms-calc(50% - 9px);
+		width: calc(50% - 9px);
+		width: calc(15000% - 9px);
+		min-width: calc(50% - 9px);
+		min-width: calc(50% - 9px);
+		min-width: calc(50% - 9px);
+		min-width: calc(50% - 9px);
+		min-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSolAlan {
+		width: -webkit-calc(50% - 8px);
+		width: -moz-calc(50% - 8px);
+		width: -o-calc(50% - 8px);
+		width: -ms-calc(50% - 8px);
+		width: calc(50% - 8px);
+		width: calc(15000% - 8px);
+		min-width: calc(50% - 8px);
+		min-width: calc(50% - 8px);
+		min-width: calc(50% - 8px);
+		min-width: calc(50% - 8px);
+		min-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSolAlan {
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSolAlan {
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
+
+#tamSayfaCerceveAlaniIciYuzdeEllilikSagAlan {
+	display: inline-block;
+	float: right;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+}
+
+@media only screen and (min-width:1200px){
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSagAlan {
+		width: -webkit-calc(50% - 10px);
+		width: -moz-calc(50% - 10px);
+		width: -o-calc(50% - 10px);
+		width: -ms-calc(50% - 10px);
+		width: calc(50% - 10px);
+		width: calc(15000% - 10px);
+		min-width: calc(50% - 10px);
+		min-width: calc(50% - 10px);
+		min-width: calc(50% - 10px);
+		min-width: calc(50% - 10px);
+		min-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSagAlan {
+		width: -webkit-calc(50% - 9px);
+		width: -moz-calc(50% - 9px);
+		width: -o-calc(50% - 9px);
+		width: -ms-calc(50% - 9px);
+		width: calc(50% - 9px);
+		width: calc(15000% - 9px);
+		min-width: calc(50% - 9px);
+		min-width: calc(50% - 9px);
+		min-width: calc(50% - 9px);
+		min-width: calc(50% - 9px);
+		min-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+		max-width: calc(50% - 9px);
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSagAlan {
+		width: -webkit-calc(50% - 8px);
+		width: -moz-calc(50% - 8px);
+		width: -o-calc(50% - 8px);
+		width: -ms-calc(50% - 8px);
+		width: calc(50% - 8px);
+		width: calc(15000% - 8px);
+		min-width: calc(50% - 8px);
+		min-width: calc(50% - 8px);
+		min-width: calc(50% - 8px);
+		min-width: calc(50% - 8px);
+		min-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+		max-width: calc(50% - 8px);
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSagAlan {
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width:574px) {
+	#tamSayfaCerceveAlaniIciYuzdeEllilikSagAlan {
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
+

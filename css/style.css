@@ -3298,3 +3298,60 @@ footer {
 	border: 1px solid #FF9900;
 	background-color: #D77000;
 }
+
+.formElemanlariTextInpulari {
+	display: block;
+	float: left;
+	width: -webkit-calc(100% - 22px);
+	width: -moz-calc(100% - 22px);
+	width: -o-calc(100% - 22px);
+	width: -ms-calc(100% - 22px);
+	width: calc(100% - 22px);
+	min-width: -webkit-calc(100% - 22px);
+	min-width: -moz-calc(100% - 22px);
+	min-width: -o-calc(100% - 22px);
+	min-width: -ms-calc(100% - 22px);
+	min-width: calc(100% - 22px);
+	max-width: -webkit-calc(100% - 22px);
+	max-width: -moz-calc(100% - 22px);
+	max-width: -o-calc(100% - 22px);
+	max-width: -ms-calc(100% - 22px);
+	max-width: calc(100% - 22px);
+	height: 33px;
+	min-height: 33px;
+	max-width: 33px;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFF;
+	border: none;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #646464;
+	line-height: 120%;
+	text-decoration: none;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+.formElemanlariTextInpulari:focus {
+	border:1px solid #F00;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}

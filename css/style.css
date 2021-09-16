@@ -2968,6 +2968,7 @@ footer {
 		width: 100%;
 		min-width: 100%;
 		max-width: 100%;
+		padding-top: 10px;
 	}
 }
 
@@ -2976,6 +2977,7 @@ footer {
 		width: 100%;
 		min-width: 100%;
 		max-width: 100%;
+		padding-top: 10px;
 	}
 }
 
@@ -3515,6 +3517,7 @@ footer {
 	min-height: 20px;
 	max-height: 20px;
 	margin: 0 auto;
+	margin-right: 10px;
 	padding: 0;
 	border: none;
 	outline: none;
@@ -3555,47 +3558,63 @@ footer {
 }
 
 @media only screen and (min-width:1200px){ /* XL */
-	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
-		width: 60px;
-		min-width: 60px;
-		max-width: 60px;
+	.tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni {
 		font-size: 14px;
-
+		margin-top: 3px;
 	}
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px){ /* L */
-	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
-		width: 50px;
-		min-width: 50px;
-		max-width: 50px;
+	.tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni {
+		font-size: 13px;
+		margin-top: 3px;
+	}
+}
+
+@media only screen and (max-width:991px){ /* M, S, XS */
+	.tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni {
+		font-size: 12px;
+		margin-top: 3px;
+	}
+}
+
+.tamSayfaCerceveAlaniIciBilgiParagraflariAciklamaMetni {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 10px;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 125%;
+	text-align: left;
+	text-decoration: none;
+
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	.tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni {
 		font-size: 13px;
 	}
 }
 
-@media only screen and (min-width:768px) and (max-width:991px){ /* M */
-	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
-		width: 50px;
-		min-width: 50px;
-		max-width: 50px;
+@media only screen and (max-width:991px){ /* M, S, XS */
+	.tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni {
 		font-size: 12px;
-	}
-}
-
-@media only screen and (min-widht:576px) and (max-width:767px){ /* S */
-	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
-		width: 50px;
-		min-width: 50px;
-		max-width: 50px;
-		font-size: 12px;
-	}
-}
-
-@media only screen and (max-width:574px){ /* XS */
-	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
-		width: 50px;
-		min-width: 50px;
-		max-width: 50px;
-		font-size: 11px;
 	}
 }

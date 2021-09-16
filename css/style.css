@@ -3343,7 +3343,7 @@ footer {
 }
 
 .formElemanlariTextInpulari:focus {
-	border:1px solid #F00;
+	border:1px solid #999;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -3353,19 +3353,249 @@ footer {
 
 
 @media only screen and (min-width:1200px){
-	.formElemanlariTextInpulari:focus {
+	.formElemanlariTextInpulari {
 		font-size: 15px;
 	}
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px){
-	.formElemanlariTextInpulari:focus {
+	.formElemanlariTextInpulari {
 		font-size: 14px;
 	}
 }
 
 @media only screen and (max-width:991px){
-	.formElemanlariTextInpulari:focus {
+	.formElemanlariTextInpulari {
 		font-size: 12px;
+	}
+}
+
+.formElemanlariTextArealari {
+	display: block;
+	float: left;
+	width: -webkit-calc(100% - 22px);
+	width: -moz-calc(100% - 22px);
+	width: -o-calc(100% - 22px);
+	width: -ms-calc(100% - 22px);
+	width: calc(100% - 22px);
+	min-width: -webkit-calc(100% - 22px);
+	min-width: -moz-calc(100% - 22px);
+	min-width: -o-calc(100% - 22px);
+	min-width: -ms-calc(100% - 22px);
+	min-width: calc(100% - 22px);
+	max-width: -webkit-calc(100% - 22px);
+	max-width: -moz-calc(100% - 22px);
+	max-width: -o-calc(100% - 22px);
+	max-width: -ms-calc(100% - 22px);
+	max-width: calc(100% - 22px);
+	height: 86px;
+	min-height: 86px;
+	max-width: 86px;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	background-color: #FFF;
+	border: none;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #646464;
+	line-height: 120%;
+	text-decoration: none;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+
+.formElemanlariTextArealari:focus {
+	border:1px solid #999;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+
+@media only screen and (min-width:1200px){
+	.formElemanlariTextArealari {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.formElemanlariTextArealari {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width:991px){
+	.formElemanlariTextArealari {
+		font-size: 12px;
+	}
+}
+
+.tamSayfaCerceveAlaniIciBilgiParagraflariKapsamaAlani {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 10px;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 120%;
+	text-align: left;
+	text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){
+	.tamSayfaCerceveAlaniIciBilgiParagraflariKapsamaAlani {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.tamSayfaCerceveAlaniIciBilgiParagraflariKapsamaAlani {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width:991px){
+	.tamSayfaCerceveAlaniIciBilgiParagraflariKapsamaAlani {
+		font-size: 12px;
+	}
+}
+
+.tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetniAlani {
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: left;
+	text-decoration: none;
+}
+
+.tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetniAlani img{
+	display: inline-block;
+	float: left;
+	width: 20px;
+	min-width: 20px;
+	max-width: 20px;
+	height: 20px;
+	min-height: 20px;
+	max-height: 20px;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni {
+	display: inline-block;
+	float: left;
+	width: calc(100% - 30px);
+	width: -webkit-calc(100% - 30px);
+	width: -moz-calc(100% - 30px);
+	width: -o-calc(100% - 30px);
+	width: -ms-calc(100% - 30px);
+	min-width: calc(100% - 30px);
+	min-width: -webkit-calc(100% - 30px);
+	min-width: -moz-calc(100% - 30px);
+	min-width: -o-calc(100% - 30px);
+	min-width: -ms-calc(100% - 30px);
+	max-width: calc(100% - 30px);
+	max-width: -webkit-calc(100% - 30px);
+	max-width: -moz-calc(100% - 30px);
+	max-width: -o-calc(100% - 30px);
+	max-width: -ms-calc(100% - 30px);
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	background-color: #FFF;
+	font-family: "Helvatica Neue ", Helvatica, sans-serif;
+	color: #F90;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 120%;
+	text-align: left;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 60px;
+		min-width: 60px;
+		max-width: 60px;
+		font-size: 14px;
+
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 50px;
+		min-width: 50px;
+		max-width: 50px;
+		font-size: 13px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 50px;
+		min-width: 50px;
+		max-width: 50px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-widht:576px) and (max-width:767px){ /* S */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 50px;
+		min-width: 50px;
+		max-width: 50px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width:574px){ /* XS */
+	.tamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+		width: 50px;
+		min-width: 50px;
+		max-width: 50px;
+		font-size: 11px;
 	}
 }

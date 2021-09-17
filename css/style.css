@@ -3618,3 +3618,38 @@ footer {
 		font-size: 12px;
 	}
 }
+
+.tamSayfaCerceveAlaniBayilerAlani {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: left;
+	text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	.tamSayfaCerceveAlaniBayilerAlani {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.tamSayfaCerceveAlaniBayilerAlani {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){ /* M, S, XS */
+	.tamSayfaCerceveAlaniBayilerAlani {
+		font-size: 12px;
+	}
+}

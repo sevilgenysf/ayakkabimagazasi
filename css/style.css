@@ -3773,3 +3773,21 @@ footer {
 	font-weight: normal;
 	line-height: 125%;
 }
+
+@media only screen and (min-width:1200px){ /* XL */
+	#sayfalamaAlaniIciSayfaVeKayitSayisiAlani {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	#sayfalamaAlaniIciSayfaVeKayitSayisiAlani {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){ /* M, S, XS */
+	#sayfalamaAlaniIciSayfaVeKayitSayisiAlani {
+		font-size: 12px;
+	}
+}

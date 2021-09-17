@@ -3761,6 +3761,7 @@ footer {
 	min-width: 100%;
 	height: auto;
 	margin: 0 auto;
+	margin-top: 5px;
 	padding: 0;
 	overflow: hidden;
 	border: none;
@@ -3771,7 +3772,7 @@ footer {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	line-height: 125%;
+	line-height: 120%;
 }
 
 @media only screen and (min-width:1200px){ /* XL */

@@ -3792,3 +3792,48 @@ footer {
 		font-size: 12px;
 	}
 }
+
+#sayfalamaNumaralandirmaAlani {
+	display: block;
+	width: 100%;
+	max-width: 100%;	
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	line-height: 120%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.sayfalamaNumaralandırmaPasif {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	margin-right: 1px;
+	margin-left: 1px;
+	padding: 0;
+	padding: 5px 7.5px;
+	overflow: hidden;
+	border: none;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #646464;
+	line-height: 120%;
+	text-decoration: none;
+}

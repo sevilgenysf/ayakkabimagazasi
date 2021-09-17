@@ -3817,9 +3817,8 @@ footer {
 	height: auto;
 	margin: 0 auto;
 	margin-right: 1px;
-	margin-left: 1px;
 	padding: 0;
-	padding: 5px 7.5px;
+	padding: 5px 5px;
 	overflow: hidden;
 	border: none;
 	border: 1px solid #CCC;
@@ -3836,4 +3835,153 @@ footer {
 	color: #646464;
 	line-height: 120%;
 	text-decoration: none;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
 }
+
+@media only screen and (min-width:1200px){ /* XL */
+	.sayfalamaNumaralandırmaPasif  {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.sayfalamaNumaralandırmaPasif {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){ /* M, S, XS */
+	.sayfalamaNumaralandırmaPasif  {
+		font-size: 12px;
+	}
+}
+
+.sayfalamaNumaralandırmaPasif:hover {
+	border: 1px solid #999;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+
+
+.sayfalamaNumaralandırmaPasif a{
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #646464;
+	text-decoration: none;
+}
+
+.sayfalamaNumaralandırmaPasif:link, .sayfalamaNumaralandırmaPasif:active, .sayfalamaNumaralandırmaPasif:visited{
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #646464;
+	text-decoration: none;
+}
+
+.sayfalamaNumaralandırmaPasif:hover{
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #999;
+	text-decoration: none;
+}
+
+
+.sayfalamaNumaralandırmaAktif {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	margin-right: 1px;
+	padding: 0;
+	padding: 5px 5px;
+	overflow: hidden;
+	border: none;
+	border: 1px solid #CCC;
+	background-color: #0AF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #FFF;
+	line-height: 120%;
+	text-decoration: none;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	.sayfalamaNumaralandırmaAktif  {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.sayfalamaNumaralandırmaAktif {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){ /* M, S, XS */
+	.sayfalamaNumaralandırmaAktif  {
+		font-size: 12px;
+	}
+}
+
+.sayfalamaNumaralandırmaAktif:hover {
+	border: 1px solid #999;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+
+
+.sayfalamaNumaralandırmaAktif a{
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.sayfalamaNumaralandırmaAktif:link, .sayfalamaNumaralandırmaAktif:active, .sayfalamaNumaralandırmaAktif:visited{
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.sayfalamaNumaralandırmaAktif:hover{
+	font-family: "Helvatica Neue", Helvatica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: none;
+}
+

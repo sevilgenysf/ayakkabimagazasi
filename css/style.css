@@ -3662,11 +3662,13 @@ footer {
 	height: auto;
 	margin: 0 auto;
 	padding: 0;
+	padding-top: 10px;
 	overflow: hidden;
 	border: none;
 	outline: none;
 	background-color: #FFF;
 	font-family: "Helvatica Neue",Helvetica, sans-serif;
+	color: #08A;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 600;
@@ -3693,3 +3695,45 @@ footer {
 	}
 }
 
+.tamSayfaCerceveAlaniBayilerBilgiMetniAlani{
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	border: none;
+	border-bottom: 1px dashed #CCC;
+	outline: none;
+	background-color: #FFF;
+	font-family: "Helvatica Neue",Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 125%;
+	text-align: left;
+	text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+	.tamSayfaCerceveAlaniBayilerBilgiMetniAlani {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.tamSayfaCerceveAlaniBayilerBilgiMetniAlani {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:991px){ /* M, S, XS */
+	.tamSayfaCerceveAlaniBayilerBilgiMetniAlani {
+		font-size: 12px;
+	}
+}

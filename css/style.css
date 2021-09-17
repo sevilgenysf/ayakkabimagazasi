@@ -3737,3 +3737,39 @@ footer {
 		font-size: 12px;
 	}
 }
+
+#sayfalamaAlani {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+#sayfalamaAlaniIciSayfaVeKayitSayisiAlani {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: "Helvatica Neue",Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 125%;
+}

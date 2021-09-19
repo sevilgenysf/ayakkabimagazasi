@@ -4168,3 +4168,54 @@ footer {
 	outline: none;
 }
 
+#kargomNeredeBaslikAlani  {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 100%;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: text-top;
+
+}
+
+@media only screen and (min-width:1200px){
+	#kargomNeredeBaslikAlani {
+		font-size: 14px;
+		margin-bottom: 14px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#kargomNeredeBaslikAlani {
+		font-size: 13px;
+		margin-bottom: 12px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	#kargomNeredeBaslikAlani {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	#kargomNeredeBaslikAlani {
+		font-size: 12px;
+		margin-bottom: 8px;
+	}
+}

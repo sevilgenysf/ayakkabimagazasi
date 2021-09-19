@@ -126,36 +126,140 @@
     <main>
         <div id="tamSayfaCerceveAlani">
           <div id="tamSayfaCerceveSinirlamaAlani">
-            <div id="tamSayfaCerceveAlaniYuzdeYuzlukAlan">
+
+            <div id="tamSayfaCerceveAlaniIciYuzdeEllilikSolAlan">
               <div class="tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani">
                 <div class="tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniUstBaslikMetni">
-                  Kargom Nerede?
+                  Bayilik Başvuru Formu
                 </div>
 
                 <div class="tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni">
-                  Sipariş gönderilerinizi bu ekrandan takip edebilirsiniz.
+                  Sizde bayi açamak için aşağıdaki formu doldurmayı unutmayınız. !
                 </div>
 
+              </div>
+              <form action="HaveleBildirim-Forum.html" method="POST">
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni">
+                  isim soyisim
                 </div>
-                <form action="https://selfservis.yurticikargo.com/reports/SSWDocumentDetail.aspx" method="GET">
-                  <div id="kagomNeredeBilgiAlani">
-                    <div id="kagomNeredeIslemIconuAlani">
-                      <img src="./images/Kargocu.png"  alt="" title="">
-                    </div>
-                    <div id="kargomNeredeBaslikAlani">
-                      Gönderi Takip Numarası
-                    </div>
-                    <div id="kargomNeredeInputAlani" class="onaylandiRenkYesil">
-                      <div class="tamSayfaCerceveAlaniIciFormElemanlariIcinSatirAlani">
-                        <input type="text" name="Gönderi Kodu" value="9052548747" class="formElemanlariTextInputlari" tabindex="1" style="text-align: center; font-weight: 600; padding: 10px; width: 500px; border-radius: 8px; border: none; border: 1px solid rgb(85, 85, 84); color: #f90;">
-                      </div>
-                    </div>
-                    <div class="butonlarIcinKapsamaAlani">
-                      <input type="submit" value="Kargo Durumu Göster" class="formElemanlariTuruncuButonlar" tabindex="2">
-                    </div>
-                  </div>
-                </form>
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariIcinSatirAlani">
+                  <input type="text" name="isimSoyisim" class="formElemanlariTextInpulari" tabindex="1">
+                </div>
+
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni">
+                  E-Mail Adresi
+                </div>
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariIcinSatirAlani">
+                  <input type="email" name="E-MailAdresi" class="formElemanlariTextInpulari" tabindex="2">
+                </div>
+
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni">
+                  Cep Telefonu
+                </div>
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariIcinSatirAlani">
+                  <input type="tel" name="cepTelefonu" class="formElemanlariTextInpulari" tabindex="3">
+                </div>
+
+                
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni">
+                  Firma Adı
+                </div>
+
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariIcinSatirAlani">
+                  <input type="tel" name="cepTelefonu" class="formElemanlariTextInpulari" tabindex="4">
+                </div>
+      
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni">
+                  Firma Yetkilisi
+                </div>
+
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariIcinSatirAlani">
+                  <input type="text" name="bankaAdi" class="formElemanlariTextInpulari" tabindex="5">
+                </div>
+
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni">
+                  Firma Telefonu
+                </div>
+
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariIcinSatirAlani">
+                  <input type="text" name="bankaAdi" class="formElemanlariTextInpulari" tabindex="6">
+                </div>
+
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariBaslikMetni">
+                  Firma Adresi
+                </div>
+                <div class="tamSayfaCerceveAlaniIciFormElamnlariIcinSatirAlani">
+                  <textarea name="aciklama" id="" cols="20" rows="3" class="formElemanlariTextArealari" tabindex="7"></textarea>
+                </div>
+                <div class="butonlarIcinKapasamaAlani">
+                  <input type="submit" value ="Başvurumu Gönder" class="formElemanlariYesilButonlar" tabindex="8">
+                </div>
+              </form>
             </div>
+          
+             
+            <div id="tamSayfaCerceveAlaniIciYuzdeEllilikSagAlan">
+              
+              <div class="tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlani">
+                <div class="tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniUstBaslikMetni">
+                  İşleyiş.
+                </div>
+
+                <div class="tamSayfaCerceveAlaniIciAltiCizgiliBaslikAlaniAltBaslikMetni">
+                  Bayilik Başvurusu Aşamaları.
+                </div>
+              </div>
+              <div class="tamSayfaCerceveAlaniIciBilgiParagraflariKapsamaAlani">
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetniAlani">
+                  <img src="./images/DokumanKirmiziKalemli20x20.png" alt="banka" title="banka">
+                  <span class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni">Başvuru işlemi</span>
+                </div>
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariAciklamaMetni">
+                  Firma tarafından öncelikler, "Bayilik Başvuru Formu" sayfasından formunu doldurarak online olarak gönderilir..
+                </div>
+              </div>
+
+              <div class="tamSayfaCerceveAlaniIciBilgiParagraflariKapsamaAlani">
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetniAlani">
+                  <img src="./images/CarklarSiyah20x20.png" alt="banka" title="banka">
+                  <span class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni">Kontroller</span>
+                </div>
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariAciklamaMetni">
+                  Bayilik başvuru formu' nuz tarafımıza ulaştığı anda ilgili departman tarafından yapmış olduğunuz başvuru bilgileri kontrol edilir.
+                </div>
+              </div>
+
+              <div class="tamSayfaCerceveAlaniIciBilgiParagraflariKapsamaAlani">
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetniAlani">
+                  <img src="./images/AdamKonusmaBalonluFume20x20.png" alt="banka" title="banka">
+                  <span class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni">İletişim</span>
+                </div>
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariAciklamaMetni">
+                  Yönetici bayilik başvuru  ssaydasında belirtilen bilgilere istinaden iligili firma yetkilsi ile iletişime geçer.
+                </div>
+              </div>
+
+              <div class="tamSayfaCerceveAlaniIciBilgiParagraflariKapsamaAlani">
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetniAlani">
+                  <img src="./images/IcerikGri20x20.png" alt="banka" title="banka">
+                  <span class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni">Resmi evrak talebi</span>
+                </div>
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariAciklamaMetni">
+                  Bayilik başvurusu yapan firmadan ilgili evraklar talep edilir. <br><b>Firmalar için;</b><br>1.Vervi levhası. <br>2.İmza sirküleri. <br>3. Ticaret odası sicil kaydı. <br>4.Resmi gazete <br>5.Faaliyet belgesi <br>6. Vergi levhası <br>7. Şirket ortaklarının nufus cüzdan fotokopisi.
+                </div>
+              </div>
+
+              <div class="tamSayfaCerceveAlaniIciBilgiParagraflariKapsamaAlani">
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetniAlani">
+                  <img src="./images/Grup20x20.png" alt="banka" title="banka">
+                  <span class="tamSayfaCerceveAlaniIciBilgiParagraflariResimliBaslikMetni">Bayilik</span>
+                </div>
+                <div class="tamSayfaCerceveAlaniIciBilgiParagraflariAciklamaMetni">
+                  Yönetici evrak onayından sonra, bayilik bilgileriniz ve sisteme giriş bilgileriniz tarafınıza iletilecektir.
+                </div>
+              </div>
+            </div>
+          
           </div>
         </div>
     </main>

@@ -4223,5 +4223,228 @@ footer {
 
 
 .tamSayfaCerceveAlaniIciIcBaslikAlaniMetni{
-	
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #00AAFF;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 150%;
+	text-align: left;
+	text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){
+	.tamSayfaCerceveAlaniIciIcBaslikAlaniMetni{
+		font-size: 15px;
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.tamSayfaCerceveAlaniIciIcBaslikAlaniMetni{
+		font-size: 14px;
+		padding-top: 9px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.tamSayfaCerceveAlaniIciIcBaslikAlaniMetni{
+		font-size: 13px;
+		padding-top: 8px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	.tamSayfaCerceveAlaniIciIcBaslikAlaniMetni{
+		font-size: 12px;
+		padding-top: 7px;
+	}
+}
+
+.tamSayfaCerceveAlaniIciSSSAlani {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	text-align: left;
+	border-bottom: 1px dashed #DDD;
+}
+
+.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	line-height: 120%;
+	font-weight: 600;
+
+}
+
+@media only screen and (min-width:1200px){
+	.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani{
+		font-size: 15px;
+		padding-top: 10px;
+		padding-bottom: 12px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani{
+		font-size: 14px;
+		padding-top: 9px;
+		padding-bottom: 11px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani{
+		font-size: 13px;
+		padding-top: 8px;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani{
+		font-size: 12px;
+		padding-top: 7px;
+		padding-bottom: 10px;
+	}
+}
+
+
+.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani:hover {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #F1F1F1;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	line-height: 120%;
+	font-weight: 600;
+
+}
+
+@media only screen and (min-width:1200px){
+	.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani:hover{
+		font-size: 15px;
+		padding-top: 10px;
+		padding-bottom: 12px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani:hover{
+		font-size: 14px;
+		padding-top: 9px;
+		padding-bottom: 11px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani:hover{
+		font-size: 13px;
+		padding-top: 8px;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	.tamSayfaCerceveAlaniIciSSSSoruBasligiAlani:hover{
+		font-size: 12px;
+		padding-top: 7px;
+		padding-bottom: 10px;
+	}
+}
+
+.tamSayfaCerceveAlaniIciSSSSoruIcerigiAlani {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	background-color: #FFF;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #646464;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	line-height: 125%;
+	font-weight: normal;
+
+}
+
+@media only screen and (min-width:1200px){
+	.tamSayfaCerceveAlaniIciSSSSoruIcerigiAlani{
+		font-size: 15px;
+		padding-bottom: 12px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.tamSayfaCerceveAlaniIciSSSSoruIcerigiAlani{
+		font-size: 14px;
+		padding-bottom: 11px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.tamSayfaCerceveAlaniIciSSSSoruIcerigiAlani{
+		font-size: 13px;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+	.tamSayfaCerceveAlaniIciSSSSoruIcerigiAlani{
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
 }

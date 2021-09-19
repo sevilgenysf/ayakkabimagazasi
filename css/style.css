@@ -3499,6 +3499,7 @@ footer {
 	height: auto;
 	margin: 0 auto;
 	padding: 0;
+	padding-top: 20px;
 	overflow: hidden;
 	border: none;
 	outline: none;

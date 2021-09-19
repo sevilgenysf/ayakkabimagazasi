@@ -76,8 +76,8 @@ $(document).ready(function(){
 		var	SoruIDsi			=	ElemanID;
 		var	IslenecekAlan		=	"#" + SoruIDsi;
 		
-		$(".TamSayfaCerceveAlaniIciSSSSoruIcerigiAlani").slideUp();
-		$(IslenecekAlan).parent().find(".TamSayfaCerceveAlaniIciSSSSoruIcerigiAlani").slideToggle();
+		$(".tamSayfaCerceveAlaniIciSSSSoruIcerigiAlani").slideUp();
+		$(IslenecekAlan).parent().find(".tamSayfaCerceveAlaniIciSSSSoruIcerigiAlani").slideToggle();
 	}
 	/* SSS İÇERİK GÖSTER / GİZLE <<<<< */
 	
